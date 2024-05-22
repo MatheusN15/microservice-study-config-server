@@ -1,12 +1,12 @@
 spring:
   application:
-    name: microservice-study
+    name: microservice-study-service
 management:
   endpoints:
     web:
       exposure:
         include:
         - '*'
-microservice-study:
+microservice-study-service:
   greeting: "Hello"
-  default-value: "World"
+  default-value: "DEV"
