@@ -9,4 +9,4 @@ management:
         - '*'
 microservice-study-service:
   greeting: "Hello"
-  default-value: "Default"
+  default-value: "nop"

@@ -1,8 +1,12 @@
 spring:
   application:
     name: microservice-study-service
-server:
-  port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
 microservice-study-service:
   greeting: "Olá"
   default-value: "QA"
